@@ -39,15 +39,16 @@ A CLI tool to extract actionable insights from Reels, TikToks, and YouTube Short
     ```
 
 4.  **Create a Global Alias**:
-    To use the `learn_with` command from any directory:
+    Run this command **inside the repository folder** to create a global `learn_with` command:
     ```bash
-    # Replace [PATH_TO_REPO] with the actual path where you cloned this
-    echo '#!/bin/bash
-    REPO_DIR="'"$(pwd)"'"
-    "$REPO_DIR/venv/bin/python3" "$REPO_DIR/main.py" "$@"' > ~/.local/bin/learn_with
+    mkdir -p ~/.local/bin
+    echo "#!/bin/bash
+    REPO_DIR=\"$(pwd)\"
+    \"\$REPO_DIR/venv/bin/python3\" \"\$REPO_DIR/main.py\" \"\$@\"" > ~/.local/bin/learn_with
     
     chmod +x ~/.local/bin/learn_with
     ```
+    *Note: Ensure `~/.local/bin` is in your `$PATH`.*
 
 ## 📖 Usage
 
