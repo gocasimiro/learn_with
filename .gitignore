@@ -1,1 +1,6 @@
-venv/\ndownloads/\n__pycache__/\n.DS_Store\n*.mp3\n*.mp4
+venv
+downloads
+__pycache__
+.DS_Store
+*.mp3
+*.mp4
