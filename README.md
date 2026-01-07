@@ -1,4 +1,4 @@
-# Learn With (Reel-to-Wisdom CLI) 🧠
+# learn_with 🧠
 
 A CLI tool to extract actionable insights from Reels, TikToks, and YouTube Shorts. It automates the process of downloading, transcribing locally (Whisper), and analyzing content using AI (Fabric).
 
