@@ -28,7 +28,7 @@ A CLI tool to extract actionable insights from Reels, TikToks, and YouTube Short
     ```bash
     python3 -m venv venv
     source venv/bin/activate
-    pip install yt-dlp typer rich openai-whisper
+    pip install -r requirements.txt
     ```
 
 3.  **Install the Custom Pattern**:
